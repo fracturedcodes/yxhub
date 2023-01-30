@@ -24,7 +24,7 @@ Tab:AddButton({
     }
 }
 
-game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.MeraIsGoated.NPCInteract:InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.[game.Players.LocalPlayer.Name].NPCInteract:InvokeServer(unpack(args))
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
   	end    
 })
@@ -41,7 +41,7 @@ Tab:AddButton({
     }
 }
     
-game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.MeraIsGoated.NPCInteract:InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.[game.Players.LocalPlayer.Name].NPCInteract:InvokeServer(unpack(args))
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
   	end    
 })
@@ -58,7 +58,7 @@ Tab:AddButton({
     }
 }
     
-game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.MeraIsGoated.NPCInteract:InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.[game.Players.LocalPlayer.Name].NPCInteract:InvokeServer(unpack(args))
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
   	end    
 })
@@ -75,7 +75,7 @@ Tab:AddButton({
     }
 }
     
-game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.MeraIsGoated.NPCInteract:InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.[game.Players.LocalPlayer.Name].NPCInteract:InvokeServer(unpack(args))
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
   	end    
 })
@@ -92,7 +92,7 @@ Tab:AddButton({
     }
 }
     
-game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.MeraIsGoated.NPCInteract:InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.[game.Players.LocalPlayer.Name].NPCInteract:InvokeServer(unpack(args))
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
   	end    
 })
@@ -109,7 +109,7 @@ Tab:AddButton({
     }
 }
     
-game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.MeraIsGoated.NPCInteract:InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.[game.Players.LocalPlayer.Name].NPCInteract:InvokeServer(unpack(args))
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
   	end    
 })
@@ -126,7 +126,7 @@ Tab:AddButton({
     }
 }
     
-game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.MeraIsGoated.NPCInteract:InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage").Files.Remotes.SinglePlayers.[game.Players.LocalPlayer.Name].NPCInteract:InvokeServer(unpack(args))
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
   	end    
 })
@@ -152,5 +152,3 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
-
-OrionLib:Init()
